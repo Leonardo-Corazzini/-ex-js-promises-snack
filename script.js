@@ -66,7 +66,7 @@
 
 function creaLanciaDado() {
     let ultimoNumero
-    return function lanciaDado() {
+    return function () {
         return promessa = new Promise((resolve, reject) => {
             setTimeout(() => {
                 const incastro = Math.floor(Math.random() * (5 - 1 + 1)) + 1
